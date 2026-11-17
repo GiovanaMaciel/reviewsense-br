@@ -1,0 +1,68 @@
+{
+  "dataset_url": "https://raw.githubusercontent.com/americanas-tech/b2w-reviews01/main/B2W-Reviews01.csv",
+  "dataset_sha256": "821fb0bf9f7230b0fba4e4f9fadd75a66d1a9ff0b1657810791d33007eb2ab38",
+  "raw_rows": 132373,
+  "usable_rows": 126674,
+  "split_sizes": {
+    "train": 88671,
+    "validation": 19001,
+    "test": 19002
+  },
+  "conflicting_rows_removed": 50,
+  "seed": 42,
+  "selected_C": 0.5,
+  "validation_results": [
+    {
+      "C": 0.5,
+      "validation_macro_f1": 0.7189597688160307
+    },
+    {
+      "C": 2.0,
+      "validation_macro_f1": 0.7122237241056221
+    }
+  ],
+  "test_results": {
+    "dummy": {
+      "accuracy": 0.6176718240185244,
+      "macro_f1": 0.25455176377457517
+    },
+    "tfidf_logistic_regression": {
+      "accuracy": 0.7918113882749185,
+      "macro_f1": 0.7230013979321005
+    }
+  },
+  "classification_report": {
+    "negativo": {
+      "precision": 0.8489038119691882,
+      "recall": 0.8791163837185518,
+      "f1-score": 0.8637459807073955,
+      "support": 4889.0
+    },
+    "neutro": {
+      "precision": 0.35575711766187956,
+      "recall": 0.5942760942760943,
+      "f1-score": 0.44507486209613867,
+      "support": 2376.0
+    },
+    "positivo": {
+      "precision": 0.9364092276830491,
+      "recall": 0.7954332452926642,
+      "f1-score": 0.8601833509927673,
+      "support": 11737.0
+    },
+    "accuracy": 0.7918113882749185,
+    "macro avg": {
+      "precision": 0.713690052438039,
+      "recall": 0.7562752410957702,
+      "f1-score": 0.7230013979321005,
+      "support": 19002.0
+    },
+    "weighted avg": {
+      "precision": 0.841290640648244,
+      "recall": 0.7918113882749185,
+      "f1-score": 0.809195030134775,
+      "support": 19002.0
+    }
+  },
+  "python_version": "3.13.18"
+}
