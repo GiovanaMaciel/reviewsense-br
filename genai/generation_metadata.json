@@ -1,0 +1,15 @@
+{
+  "provider": "groq",
+  "requested_model": "openai/gpt-oss-120b",
+  "returned_model": "openai/gpt-oss-120b",
+  "response_id": "chatcmpl-90394280-9c31-408c-a683-0109e8ce9d06",
+  "prompt_version": "reviewsense-evidence-v2",
+  "prompt_sha256": "e590e037c7fcc7f1a88bcd76bbb93f805dc126742cf9a4c74247f76301668944",
+  "input_sha256": "bb6061e13b6c212059cf73fdf9dcd51a93fc93ec07be0a5b03886d867fa0d939",
+  "review_count": 12,
+  "latency_seconds": 2.6581,
+  "input_tokens": 1005,
+  "output_tokens": 1052,
+  "reference_integrity_passed": true,
+  "semantic_review_completed": false
+}

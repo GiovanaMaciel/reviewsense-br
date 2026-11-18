@@ -13,9 +13,60 @@ metrics:
 
 # ReviewSense BR
 
-Brazilian Portuguese sentiment classification with TF-IDF and logistic regression.
-The experiment compares a trained text classifier with a majority-class baseline
-using a stratified train/validation/test protocol.
+Brazilian Portuguese review analysis combining a trained sentiment classifier
+with evidence-linked LLM synthesis.
+
+- **Machine learning:** TF-IDF + logistic regression, trained and evaluated on B2W-Reviews01.
+- **GenAI:** structured praise, complaint and action summaries using GPT-OSS 120B hosted by Groq.
+- **Evaluation:** held-out classification metrics, offline contract tests and an exploratory review of a recorded LLM run.
+
+The sentiment classifier was trained in this project. GPT-OSS is an external
+pretrained model used through an API; it was not trained or fine-tuned here.
+
+## Project links
+
+- [Published sentiment model](https://huggingface.co/gimaciel/reviewsense-br-tfidf)
+- [ML experiment](reviewsense_br.ipynb)
+- [GenAI notebook](reviewsense_br_genai.ipynb)
+- [Recorded GenAI execution](genai/README_GENAI.md)
+- [Exploratory qualitative review](genai/QUALITATIVE_REVIEW.md)
+
+## Recorded GenAI demonstration
+
+A batch of **12 authored synthetic restaurant reviews** produced four praise
+groups, four complaint groups and four proposed actions using
+`openai/gpt-oss-120b` on Groq with prompt `reviewsense-evidence-v2`.
+The run recorded **2.6581 seconds**, **1,005 input tokens** and **1,052 output tokens**.
+These are observations from one run, not latency or quality benchmarks.
+
+All 14 evidence excerpts match their cited input reviews. Qualitative inspection
+also found scope generalizations, including plural delivery incidents inferred
+from a single packaging complaint. The original report remains unchanged.
+Citation integrity does not establish semantic accuracy. Independent human
+review and evaluation on separate batches remain pending.
+
+The demo uses Groq's Free plan subject to account quotas. No card or subscription
+is part of the project setup; the API key is supplied through a secret or a hidden
+prompt and is never included in these files.
+
+## GenAI code and tests
+
+`reviewsense_genai.py` contains the reusable schema, preprocessing, classification,
+reference validation and Groq integration. `requirements_genai.txt` records the
+dependencies from the uploaded execution. The original run recorded 16 offline
+contract tests with no failures; the publication adds a regression test for
+stringified finding objects. Tests use simulated API responses and do not score
+LLM quality.
+
+```bash
+python -m pip install -r requirements_genai.txt
+python -m unittest discover -s tests -v
+```
+
+For API execution, the notebook reads `GROQ_API_KEY` from the environment, Colab
+secrets or a hidden prompt. ML training and GenAI synthesis use different data:
+the former is evaluated on product reviews; the latter is demonstrated on a
+small synthetic restaurant batch.
 
 ## Dataset and labels
 
@@ -109,7 +160,6 @@ record the package versions installed during the corresponding run.
 ## Planned experiments
 
 - Comparison with a Portuguese Transformer under a documented evaluation protocol.
-- LLM-based summaries linked to review evidence, evaluated for faithfulness and coverage.
 - Independent evaluation on appropriately sourced restaurant reviews.
 
-Transformer and LLM components are planned work and are not included in this version.
+Transformer comparison, independent restaurant-domain evaluation, a hosted interactive demo and multi-batch semantic evaluation remain planned work.

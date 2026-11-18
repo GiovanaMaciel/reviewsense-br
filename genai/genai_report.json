@@ -1,0 +1,140 @@
+{
+  "praises": [
+    {
+      "title": "Entrega pontual e comida deliciosa",
+      "description": "Clientes elogiaram a pontualidade da entrega e a qualidade do sabor.",
+      "evidence": [
+        {
+          "review_id": "R03",
+          "quote": "O pedido chegou no horário e a comida estava deliciosa."
+        },
+        {
+          "review_id": "R12",
+          "quote": "O pedido veio completo e chegou antes do prazo."
+        }
+      ]
+    },
+    {
+      "title": "Embalagem bem feita e organização",
+      "description": "A embalagem foi destacada como segura e manteve a comida organizada.",
+      "evidence": [
+        {
+          "review_id": "R01",
+          "quote": "a embalagem estava bem fechada."
+        },
+        {
+          "review_id": "R06",
+          "quote": "a embalagem manteve tudo organizado."
+        }
+      ]
+    },
+    {
+      "title": "Sabor e porção elogiados",
+      "description": "O sabor e a quantidade da refeição foram apreciados pelos clientes.",
+      "evidence": [
+        {
+          "review_id": "R08",
+          "quote": "Sabor excelente e porção bem servida. Vou pedir novamente."
+        }
+      ]
+    },
+    {
+      "title": "Atendimento ágil e solução de problemas",
+      "description": "O suporte respondeu rapidamente e resolveu a troca de item.",
+      "evidence": [
+        {
+          "review_id": "R11",
+          "quote": "O restaurante respondeu rápido e resolveu a troca do item."
+        }
+      ]
+    }
+  ],
+  "complaints": [
+    {
+      "title": "Comida chegando fria",
+      "description": "Vários clientes relataram que a comida chegou fria, afetando a experiência.",
+      "evidence": [
+        {
+          "review_id": "R01",
+          "quote": "A comida chegou fria"
+        },
+        {
+          "review_id": "R02",
+          "quote": "meu lanche veio frio"
+        },
+        {
+          "review_id": "R09",
+          "quote": "A comida estava gostosa, porém chegou fria."
+        }
+      ]
+    },
+    {
+      "title": "Atraso na entrega",
+      "description": "Entregas demoraram além do prazo informado, gerando insatisfação.",
+      "evidence": [
+        {
+          "review_id": "R02",
+          "quote": "A entrega atrasou bastante"
+        },
+        {
+          "review_id": "R07",
+          "quote": "Esperei muito além do prazo informado para receber o pedido."
+        }
+      ]
+    },
+    {
+      "title": "Itens faltantes no pedido",
+      "description": "Bebidas solicitadas não foram incluídas, e o atendimento não solucionou o problema.",
+      "evidence": [
+        {
+          "review_id": "R04",
+          "quote": "Faltou a bebida que eu pedi"
+        },
+        {
+          "review_id": "R05",
+          "quote": "O refrigerante não veio no pedido e o atendimento não resolveu."
+        }
+      ]
+    },
+    {
+      "title": "Problemas com a embalagem",
+      "description": "Em algumas entregas a embalagem se rompeu, causando vazamento de molho.",
+      "evidence": [
+        {
+          "review_id": "R10",
+          "quote": "A embalagem abriu durante a entrega e o molho vazou."
+        }
+      ]
+    }
+  ],
+  "action_suggestions": [
+    {
+      "action": "Implementar controle de temperatura durante o transporte para evitar que a comida chegue fria.",
+      "based_on_review_ids": [
+        "R01",
+        "R02",
+        "R09"
+      ]
+    },
+    {
+      "action": "Revisar rotas e processos logísticos para reduzir atrasos nas entregas.",
+      "based_on_review_ids": [
+        "R02",
+        "R07"
+      ]
+    },
+    {
+      "action": "Estabelecer checklist de itens antes da saída para garantir que todas as bebidas e complementos estejam incluídos.",
+      "based_on_review_ids": [
+        "R04",
+        "R05"
+      ]
+    },
+    {
+      "action": "Aprimorar a qualidade das embalagens, usando materiais mais resistentes para evitar rupturas e vazamentos.",
+      "based_on_review_ids": [
+        "R10"
+      ]
+    }
+  ]
+}

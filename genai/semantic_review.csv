@@ -1,0 +1,9 @@
+category,title,description,cited_review_count,review_ids,quotes,supported_by_evidence,contains_unsupported_claim,reviewer_notes
+praises,Entrega pontual e comida deliciosa,Clientes elogiaram a pontualidade da entrega e a qualidade do sabor.,2,"R03, R12",O pedido chegou no horário e a comida estava deliciosa. | O pedido veio completo e chegou antes do prazo.,,,
+praises,Embalagem bem feita e organização,A embalagem foi destacada como segura e manteve a comida organizada.,2,"R01, R06",a embalagem estava bem fechada. | a embalagem manteve tudo organizado.,,,
+praises,Sabor e porção elogiados,O sabor e a quantidade da refeição foram apreciados pelos clientes.,1,R08,Sabor excelente e porção bem servida. Vou pedir novamente.,,,
+praises,Atendimento ágil e solução de problemas,O suporte respondeu rapidamente e resolveu a troca de item.,1,R11,O restaurante respondeu rápido e resolveu a troca do item.,,,
+complaints,Comida chegando fria,"Vários clientes relataram que a comida chegou fria, afetando a experiência.",3,"R01, R02, R09","A comida chegou fria | meu lanche veio frio | A comida estava gostosa, porém chegou fria.",,,
+complaints,Atraso na entrega,"Entregas demoraram além do prazo informado, gerando insatisfação.",2,"R02, R07",A entrega atrasou bastante | Esperei muito além do prazo informado para receber o pedido.,,,
+complaints,Itens faltantes no pedido,"Bebidas solicitadas não foram incluídas, e o atendimento não solucionou o problema.",2,"R04, R05",Faltou a bebida que eu pedi | O refrigerante não veio no pedido e o atendimento não resolveu.,,,
+complaints,Problemas com a embalagem,"Em algumas entregas a embalagem se rompeu, causando vazamento de molho.",1,R10,A embalagem abriu durante a entrega e o molho vazou.,,,

@@ -1,0 +1,69 @@
+{
+  "predictions": [
+    {
+      "review_id": "R01",
+      "text": "A comida chegou fria, mas a embalagem estava bem fechada.",
+      "predicted_sentiment": "neutro"
+    },
+    {
+      "review_id": "R02",
+      "text": "A entrega atrasou bastante e meu lanche veio frio.",
+      "predicted_sentiment": "neutro"
+    },
+    {
+      "review_id": "R03",
+      "text": "O pedido chegou no horário e a comida estava deliciosa.",
+      "predicted_sentiment": "positivo"
+    },
+    {
+      "review_id": "R04",
+      "text": "Faltou a bebida que eu pedi. O lanche estava bom.",
+      "predicted_sentiment": "neutro"
+    },
+    {
+      "review_id": "R05",
+      "text": "O refrigerante não veio no pedido e o atendimento não resolveu.",
+      "predicted_sentiment": "negativo"
+    },
+    {
+      "review_id": "R06",
+      "text": "Gostei muito da comida e a embalagem manteve tudo organizado.",
+      "predicted_sentiment": "positivo"
+    },
+    {
+      "review_id": "R07",
+      "text": "Esperei muito além do prazo informado para receber o pedido.",
+      "predicted_sentiment": "positivo"
+    },
+    {
+      "review_id": "R08",
+      "text": "Sabor excelente e porção bem servida. Vou pedir novamente.",
+      "predicted_sentiment": "positivo"
+    },
+    {
+      "review_id": "R09",
+      "text": "A comida estava gostosa, porém chegou fria.",
+      "predicted_sentiment": "neutro"
+    },
+    {
+      "review_id": "R10",
+      "text": "A embalagem abriu durante a entrega e o molho vazou.",
+      "predicted_sentiment": "negativo"
+    },
+    {
+      "review_id": "R11",
+      "text": "O restaurante respondeu rápido e resolveu a troca do item.",
+      "predicted_sentiment": "neutro"
+    },
+    {
+      "review_id": "R12",
+      "text": "O pedido veio completo e chegou antes do prazo.",
+      "predicted_sentiment": "positivo"
+    }
+  ],
+  "predicted_counts": {
+    "negativo": 2,
+    "neutro": 5,
+    "positivo": 5
+  }
+}

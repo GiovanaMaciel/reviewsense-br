@@ -1,0 +1,14 @@
+{
+  "audit_scope": "reference_integrity_and_exploratory_qualitative_inspection",
+  "source_report_sha256": "ab9441b9dfbbaa9b53a81e983b6869ccbfd0187dc74711487f37dd2730e18974",
+  "source_prompt_sha256": "e590e037c7fcc7f1a88bcd76bbb93f805dc126742cf9a4c74247f76301668944",
+  "input_review_count": 12,
+  "evidence_citations_checked": 14,
+  "all_cited_ids_exist": true,
+  "all_quotes_are_literal_substrings": true,
+  "all_actions_reference_cited_complaints": true,
+  "exploratory_review_recorded": true,
+  "independent_human_review_completed": false,
+  "semantic_accuracy_score": null,
+  "note": "Citation integrity is not a semantic accuracy metric. Proposed wording does not replace the raw output."
+}

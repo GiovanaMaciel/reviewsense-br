@@ -1,0 +1,54 @@
+{
+  "source": "authored_synthetic_demonstration",
+  "is_restaurant_benchmark": false,
+  "reviews": [
+    {
+      "review_id": "R01",
+      "text": "A comida chegou fria, mas a embalagem estava bem fechada."
+    },
+    {
+      "review_id": "R02",
+      "text": "A entrega atrasou bastante e meu lanche veio frio."
+    },
+    {
+      "review_id": "R03",
+      "text": "O pedido chegou no horário e a comida estava deliciosa."
+    },
+    {
+      "review_id": "R04",
+      "text": "Faltou a bebida que eu pedi. O lanche estava bom."
+    },
+    {
+      "review_id": "R05",
+      "text": "O refrigerante não veio no pedido e o atendimento não resolveu."
+    },
+    {
+      "review_id": "R06",
+      "text": "Gostei muito da comida e a embalagem manteve tudo organizado."
+    },
+    {
+      "review_id": "R07",
+      "text": "Esperei muito além do prazo informado para receber o pedido."
+    },
+    {
+      "review_id": "R08",
+      "text": "Sabor excelente e porção bem servida. Vou pedir novamente."
+    },
+    {
+      "review_id": "R09",
+      "text": "A comida estava gostosa, porém chegou fria."
+    },
+    {
+      "review_id": "R10",
+      "text": "A embalagem abriu durante a entrega e o molho vazou."
+    },
+    {
+      "review_id": "R11",
+      "text": "O restaurante respondeu rápido e resolveu a troca do item."
+    },
+    {
+      "review_id": "R12",
+      "text": "O pedido veio completo e chegou antes do prazo."
+    }
+  ]
+}

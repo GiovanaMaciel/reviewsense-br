@@ -1,0 +1,17 @@
+{
+  "llm_generation_completed": true,
+  "semantic_review_completed": false,
+  "classifier_repo": "gimaciel/reviewsense-br-tfidf",
+  "classifier_revision": "5c1bf1a475eee98c2f6710088ff1a4a65f600028",
+  "classifier_sha256": "d871ed26a4588151f6ab5149fee54d8fe7c9cdc9989da401c58104fa846fdddb",
+  "llm_requested_model": "openai/gpt-oss-120b",
+  "llm_provider": "groq",
+  "prompt_version": "reviewsense-evidence-v2",
+  "python_version": "3.13.18",
+  "contract_tests": {
+    "run": 16,
+    "failures": 0,
+    "errors": 0,
+    "uses_simulated_api_responses": true
+  }
+}
